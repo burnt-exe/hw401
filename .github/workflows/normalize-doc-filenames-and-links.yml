@@ -1,0 +1,44 @@
+name: normalize-doc-filenames-and-links
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '**/*.md'
+      - 'docs/**'
+      - 'README.md'
+      - '.github/workflows/normalize-doc-filenames-and-links.yml'
+      - 'scripts/normalize_docs_lowercase.py'
+
+permissions:
+  contents: write
+
+jobs:
+  normalize-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run lowercase normalization
+        run: python scripts/normalize_docs_lowercase.py
+
+      - name: Commit and push changes
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "Normalize markdown filenames and lowercase internal links"
+            git push
+          else
+            echo "No changes detected."
+          fi
