@@ -3,14 +3,12 @@
 > Strategic cyber conflict, cognitive-domain operations, information superiority, and critical infrastructure security.
 
 <div align="center">
-
-![Course](https://img.shields.io/badge/course-hw401-0f62fe?style=for-the-badge)
-![Focus](https://img.shields.io/badge/focus-fifth%20domain-8a3ffc?style=for-the-badge)
-![Docs](https://img.shields.io/badge/documentation-live-24a148?style=for-the-badge)
-![Status](https://img.shields.io/badge/status-expanding-fa4d56?style=for-the-badge)
-![Maintained](https://img.shields.io/badge/maintained-yes-198038?style=for-the-badge)
-![Repo Convention](https://img.shields.io/badge/paths-lowercase-f1c21b?style=for-the-badge)
-
+  <img src="https://img.shields.io/badge/course-hw401-0f62fe?style=for-the-badge" alt="course hw401" />
+  <img src="https://img.shields.io/badge/focus-fifth%20domain-8a3ffc?style=for-the-badge" alt="focus fifth domain" />
+  <img src="https://img.shields.io/badge/documentation-live-24a148?style=for-the-badge" alt="documentation live" />
+  <img src="https://img.shields.io/badge/status-expanding-fa4d56?style=for-the-badge" alt="status expanding" />
+  <img src="https://img.shields.io/badge/maintained-yes-198038?style=for-the-badge" alt="maintained yes" />
+  <img src="https://img.shields.io/badge/paths-lowercase-f1c21b?style=for-the-badge" alt="paths lowercase" />
 </div>
 
 ---
