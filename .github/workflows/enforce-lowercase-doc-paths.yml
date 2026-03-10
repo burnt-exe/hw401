@@ -1,0 +1,29 @@
+name: enforce-lowercase-doc-paths
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lowercase-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for uppercase markdown file paths
+        shell: bash
+        run: |
+          echo "Checking for uppercase characters in markdown file paths..."
+          BAD_FILES=$(find . -type f -name "*.md" | grep '[A-Z]' || true)
+
+          if [ -n "$BAD_FILES" ]; then
+            echo "The following markdown files contain uppercase characters in their paths:"
+            echo "$BAD_FILES"
+            exit 1
+          fi
+
+          echo "All markdown file paths are lowercase."
