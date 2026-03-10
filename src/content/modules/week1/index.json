@@ -1,0 +1,48 @@
+{
+  "slug": "week1",
+  "title": "Week 1",
+  "description": "Foundations of cyber conflict and fifth-domain warfare.",
+  "objectives": [
+    "Explain the origins of cyber operations",
+    "Describe strategic effects in cyberspace",
+    "Define information superiority"
+  ],
+  "lessons": [
+    {
+      "slug": "lesson-1",
+      "title": "Origins of cyber operations",
+      "summary": "Trace early cyber activity from experimentation and espionage into operational and strategic conflict.",
+      "content": [
+        "Early cyber operations emerged from experimentation, network exploitation, and intelligence collection rather than overt battlefield action.",
+        "Over time, espionage campaigns, malware development, and intrusion tradecraft evolved into instruments of state power and military influence.",
+        "This historical shift matters because it shows how cyberspace became a domain for shaping advantage long before open conflict."
+      ],
+      "reading": "Review early cyber incidents and identify where espionage begins to resemble strategic preparation.",
+      "instructorNote": "Emphasize the shift from technical curiosity to state-linked operational intent."
+    },
+    {
+      "slug": "lesson-2",
+      "title": "Strategic effects in cyberspace",
+      "summary": "Examine how cyber operations can shape military, political, and economic outcomes.",
+      "content": [
+        "Cyber operations can create strategic effects without requiring large-scale physical destruction.",
+        "Disruption, coercion, espionage, and signaling all affect how governments, militaries, and populations behave.",
+        "Strategic cyber effects often depend on timing, target selection, and the wider political context."
+      ],
+      "reading": "Compare a disruptive attack with a covert espionage campaign and identify how their strategic effects differ.",
+      "instructorNote": "Connect technical actions to political and military consequences."
+    },
+    {
+      "slug": "lesson-3",
+      "title": "Information superiority",
+      "summary": "Understand how control of information influences decision-making and mission advantage.",
+      "content": [
+        "Information superiority is about protecting friendly information while degrading the adversary's ability to understand events.",
+        "The goal is decision advantage: seeing clearly, deciding faster, and acting with greater confidence than the opponent.",
+        "Cyber operations, intelligence, deception, and information operations all contribute to this struggle."
+      ],
+      "reading": "Identify how information protection and adversary disruption work together to create decision advantage.",
+      "instructorNote": "Frame the concept in operational terms, not just technical security terms."
+    }
+  ]
+}

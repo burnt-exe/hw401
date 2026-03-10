@@ -1,0 +1,48 @@
+{
+  "slug": "week3",
+  "title": "Week 3",
+  "description": "Cognitive operations, disinformation, and military implications.",
+  "objectives": [
+    "Explain cognitive-domain effects",
+    "Assess disinformation campaigns",
+    "Connect narrative warfare to military outcomes"
+  ],
+  "lessons": [
+    {
+      "slug": "lesson-1",
+      "title": "Narrative manipulation",
+      "summary": "Understand how actors shape interpretation, trust, and legitimacy through narratives.",
+      "content": [
+        "Narratives influence how people interpret events, assign blame, and judge legitimacy.",
+        "Adversaries use narrative framing to weaken trust, create confusion, and shift public expectations.",
+        "In conflict, narrative control can shape strategic outcomes even without direct physical confrontation."
+      ],
+      "reading": "Identify how narrative framing can alter public understanding of a cyber incident.",
+      "instructorNote": "Keep the discussion tied to operational purpose, not just media theory."
+    },
+    {
+      "slug": "lesson-2",
+      "title": "Cognitive-domain effects",
+      "summary": "Evaluate how cyber and information operations influence belief and decision-making.",
+      "content": [
+        "Cognitive effects target perception, trust, confidence, and judgment.",
+        "These effects can shape leaders, military forces, and civilian populations.",
+        "Cyber activity often works alongside information operations to amplify uncertainty and influence decisions."
+      ],
+      "reading": "Explain why cognitive effects matter to military planning and deterrence.",
+      "instructorNote": "Relate this to OODA disruption and decision advantage."
+    },
+    {
+      "slug": "lesson-3",
+      "title": "Campaign analysis",
+      "summary": "Apply frameworks to assess intent, effect, and consequence across campaigns.",
+      "content": [
+        "Campaign analysis connects tactical actions to operational design and strategic purpose.",
+        "It requires identifying intent, target selection, timing, escalation risk, and the wider information environment.",
+        "This approach helps distinguish isolated incidents from coherent influence or coercion campaigns."
+      ],
+      "reading": "Use a real incident and identify tactical, operational, and strategic layers.",
+      "instructorNote": "Push students to connect facts to effect, not just chronology."
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+module.exports=[50645,a=>{a.n(a.i(27572))},43619,a=>{a.n(a.i(79962))},13718,a=>{a.n(a.i(85523))},18198,a=>{a.n(a.i(45518))},62212,a=>{a.n(a.i(66114))},66194,a=>{"use strict";var b=a.i(7997);function c(){return(0,b.jsx)("section",{className:"mx-auto max-w-5xl px-4 py-10 sm:px-6 lg:px-8",children:(0,b.jsxs)("div",{className:"rounded-2xl border border-white/10 bg-slate-900 p-8",children:[(0,b.jsx)("h1",{className:"text-3xl font-bold text-white",children:"Coming Soon"}),(0,b.jsx)("p",{className:"mt-3 text-slate-300",children:"This section will contain structured HW401 course content."})]})})}a.s(["default",()=>c])}];
+
+//# sourceMappingURL=_9491253e._.js.map

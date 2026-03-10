@@ -1,0 +1,48 @@
+{
+  "slug": "week2",
+  "title": "Week 2",
+  "description": "Critical infrastructure, ICS and OT targeting, and escalation risk.",
+  "objectives": [
+    "Differentiate ICS, OT, and enterprise IT",
+    "Explain disruption in critical infrastructure environments",
+    "Assess resilience and escalation considerations"
+  ],
+  "lessons": [
+    {
+      "slug": "lesson-1",
+      "title": "ICS vs IT environments",
+      "summary": "Compare operational priorities, safety constraints, and technology differences across environments.",
+      "content": [
+        "ICS and OT systems prioritize safety, availability, and process continuity over many traditional IT concerns.",
+        "These environments often depend on legacy technologies, vendor constraints, and specialized protocols.",
+        "Security decisions must account for physical consequences, maintenance windows, and operational risk."
+      ],
+      "reading": "Map three ways an OT environment differs from a typical enterprise IT environment.",
+      "instructorNote": "Stress safety and uptime as design drivers."
+    },
+    {
+      "slug": "lesson-2",
+      "title": "Operational disruption",
+      "summary": "Analyze how cyber incidents can interrupt industrial and national service delivery.",
+      "content": [
+        "Cyber disruption in infrastructure can interrupt power, water, logistics, healthcare, or communications.",
+        "Even when the initial intrusion targets business systems, operators may shut down connected services to contain risk.",
+        "This is why cyber incidents can create immediate public and strategic consequences."
+      ],
+      "reading": "Explain how business IT compromise can still create national-level disruption.",
+      "instructorNote": "Use Colonial Pipeline as a bridge case."
+    },
+    {
+      "slug": "lesson-3",
+      "title": "Infrastructure resilience",
+      "summary": "Identify defensive measures, fallback procedures, and recovery practices.",
+      "content": [
+        "Resilience depends on segmentation, visibility, tested response plans, and manual fallback procedures.",
+        "Recovery planning must consider both technical restoration and operational continuity.",
+        "In critical infrastructure, resilience is often the difference between manageable disruption and strategic crisis."
+      ],
+      "reading": "List practical resilience measures for a utility or industrial operator.",
+      "instructorNote": "Tie resilience to deterrence by denial."
+    }
+  ]
+}

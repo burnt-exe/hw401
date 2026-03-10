@@ -1,0 +1,126 @@
+@import "@carbon/styles/css/styles.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--cds-background);
+  color: var(--cds-text-primary);
+}
+
+a {
+  text-decoration: none;
+}
+
+.app-header {
+  border-bottom: 1px solid var(--cds-border-subtle);
+}
+
+.app-shell {
+  min-height: 100vh;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  background:
+    radial-gradient(circle at top right, rgba(69, 137, 255, 0.14), transparent 26%),
+    radial-gradient(circle at bottom left, rgba(15, 98, 254, 0.1), transparent 24%),
+    var(--cds-background);
+}
+
+.brand {
+  padding-left: 1rem;
+}
+
+.desktop-nav {
+  display: flex;
+}
+
+.hero-panel {
+  background: linear-gradient(135deg, rgba(22, 22, 22, 0.95), rgba(38, 38, 38, 0.88));
+  border: 1px solid var(--cds-border-subtle);
+  border-left: 4px solid var(--cds-interactive);
+  padding: 2rem;
+}
+
+.eyebrow {
+  color: var(--cds-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.hero-title {
+  margin: 0 0 1rem 0;
+  font-size: clamp(2rem, 4.8vw, 4rem);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.hero-copy {
+  max-width: 64rem;
+  color: var(--cds-text-secondary);
+  line-height: 1.7;
+}
+
+.section-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.course-tile {
+  height: 100%;
+  background: var(--cds-layer);
+  border: 1px solid var(--cds-border-subtle);
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.course-tile:hover {
+  transform: translateY(-2px);
+  border-color: var(--cds-border-interactive);
+  background: var(--cds-layer-hover);
+}
+
+.tile-kicker {
+  color: var(--cds-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.tile-copy {
+  color: var(--cds-text-secondary);
+  line-height: 1.6;
+}
+
+.notice-panel {
+  background: var(--cds-layer);
+  border: 1px solid var(--cds-border-subtle);
+  padding: 1.5rem;
+}
+
+.notice-box {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: var(--cds-layer-accent);
+  border-left: 4px solid var(--cds-support-info);
+  color: var(--cds-text-secondary);
+  line-height: 1.6;
+}
+
+.footer-note {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--cds-border-subtle);
+  color: var(--cds-text-secondary);
+}
+
+@media (max-width: 1055px) {
+  .desktop-nav {
+    display: none;
+  }
+}
